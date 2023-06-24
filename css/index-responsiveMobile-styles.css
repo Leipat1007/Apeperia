@@ -1,0 +1,47 @@
+@import url(Variables.css);
+@media screen and (max-width:600px) {
+    /*General styles*/
+    .container {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    /*Estilos del head*/
+    .head .container .headNavegacion {
+        width: 100%;
+    }
+    .head .container .headNavegacion .headNavegacion-list {
+        flex-wrap: wrap;
+    }
+    .head .container .headNavegacion .headNavegacion-list .headNavegacion-list-item {
+        padding-bottom: .5rem;
+        font-size: 1.1rem;
+        margin-right: 10%;
+    }
+    /*Estilos de la section llamada*/
+    .llamada .container .llamadaTitulo {
+        padding-top: 1rem;
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    .llamada .container .llamadaTexto {
+        font-size: 1.5rem;
+    }
+    /*Estilos de la section diferenciales*/
+    .diferenciales .container .diferencialesPanel-list {
+        flex-direction: column;
+    }
+    /*Estilos de la section sobre nosotros*/
+    .sobreNosotros .sobreNosotros-titulo {
+        font-size: 2rem;
+    }
+    /*Estilos del footer*/
+    .footer .separacionContainer .footerSocial-list {
+        width: 60%;
+    }
+    .footer .container .footer-navegacion .footer-navegacion-list {
+        flex-wrap: wrap;
+    }
+    .footer .container .footer-navegacion .footer-navegacion-list .footer-navegacion-list-item {
+        padding-bottom: 1rem;
+    }   
+}

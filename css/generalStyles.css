@@ -1,0 +1,68 @@
+@import url(Variables.css);
+body {
+    font-family: var(--Open-Sans);
+    color: var(--background-blanco);
+}
+.container {
+    display: flex;
+    padding-left: calc((100% - 940px)/2);
+    padding-right: calc((100% - 940px)/2);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    font-family: var(--montserrat);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.boton {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid var(--boton-rojo);
+}
+.botonstart {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid var(--planes-card-start);
+}
+.botonmega {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid var(--planes-card-mega);
+}
+.botonultra {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid var(--planes-card-ultra);
+}
+.start {
+    color: var(--planes-card-start);
+}
+.mega {
+    color: var(--planes-card-mega);
+}
+.ultra {
+    color: var(--planes-card-ultra);
+}

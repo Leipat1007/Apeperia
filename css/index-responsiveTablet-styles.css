@@ -1,0 +1,51 @@
+@import url(Variables.css);
+@media screen and (max-width:1024px) {
+    /*Estilos del head*/
+    .head .container {
+        flex-direction: column;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid var(--border-cabecera-mobile);
+    }
+    .head .container .headLogo {
+        margin-bottom: 1rem;
+    }
+    /*Estilos de la section llamada*/
+    .llamada {
+        padding-top: 12.50rem;
+        background-image: none;
+        background-color: var(--background-llamada-mobile);
+    }
+    .llamada .container .llamadaTitulo {
+        text-align: center;
+    }
+    /*Estilos de la section sobre nosotros*/
+    .sobreNosotros .container .sobreNosotros-imagen {
+        display: none;
+    }
+    /*Estilos de la section planes*/
+    .planes .container .planesTarjetas {
+        flex-direction: column;
+    }
+    .planes .container .planesTarjetas .tarjetas {
+        margin-bottom: 1rem;
+    }
+    /*Estilos de la section institucional*/
+    .institucional .container .institucionalInformacion {
+        flex-direction: column;
+    }
+    .institucional .container .institucionalInformacion .institucional-video {
+        width: 90vw;
+        margin-top: 1rem;
+    }
+    /*Estilos del footer*/
+    .footer .container .separacionContainer  {
+        flex-direction: column;
+    }
+    .separacionContainer .footerLogo {
+        margin-bottom: 2rem;
+    }
+    .footer .container .footerNavegacion {
+        justify-content: center;
+        align-items: center;
+    }   
+}
